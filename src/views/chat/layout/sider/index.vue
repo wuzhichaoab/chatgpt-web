@@ -83,6 +83,12 @@ watch(
           <NButton block @click="show = true">
             {{ $t('store.siderButton') }}
           </NButton>
+          <NButton block>
+            生成PPT文件
+          </NButton>
+          <NButton block>
+            <SvgIcon icon="ri:save-line" />生成word文件
+          </NButton>
         </div>
       </main>
       <Footer />

@@ -48,6 +48,16 @@ const options = computed(() => {
       key: 'delete',
       icon: iconRender({ icon: 'ri:delete-bin-line' }),
     },
+    {
+      label: '生成PPT',
+      key: 'createppt',
+      icon: iconRender({ icon: 'teenyicons:ppt-solid' }),
+    },
+    {
+      label: '生成word文件',
+      key: 'createword',
+      icon: iconRender({ icon: 'ri:file-word-2-line' }),
+    },
   ]
 
   if (!props.inversion) {
